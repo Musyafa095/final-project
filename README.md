@@ -1,8 +1,11 @@
 # netflix-clone
 
 Final Project
+
 Judul: Netflix Clone
+
 Teknologi: Laravel-Vue.js
+
 Program: Paradaya Super Bothcamp By Sanbercode X Rumah Amal Salman
 
 Deskripsi:
