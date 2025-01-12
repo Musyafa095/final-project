@@ -14,6 +14,8 @@ use App\Mail\UserRegisterMail;
 use App\Mail\GenerateEmailMail;
 use Carbon\Carbon;
 
+
+
 class AuthController extends Controller
 {
     public function register(Request $request)
@@ -47,6 +49,7 @@ class AuthController extends Controller
     }
        public function login (Request $request)
 {
+   
     $request->validate([
  
         'email' => 'required',
@@ -54,8 +57,9 @@ class AuthController extends Controller
     ],[
         'required' => 'inputan :attribute wajib diisi',
     ]);
-
+       
           $credentials = request(['email', 'password']);
+          
 
             if (!$token = auth ()->attempt($credentials)){
                 return response()->json(['eror' => 'Invalid User'], 401);
