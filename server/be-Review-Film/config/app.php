@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://netflix-clone-production-fa7c.up.railway.app'),
 
     'asset_url' => env('ASSET_URL', '/'),
 
@@ -208,8 +208,10 @@ return [
     |
     */
 
-    'aliases' => Facade::defaultAliases()->merge([
-        // 'ExampleClass' => App\Example\ExampleClass::class,
+    'aliases' => Facade::defaultAliases()->merge([    
+    /*
+     * Laravel Framework Aliases...
+     */
     ])->toArray(),
 
 ];
