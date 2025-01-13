@@ -2,7 +2,7 @@
 
 Final Project
 
-Judul: Netflix Clone
+Judul: -
 
 Teknologi: Laravel-Vue.js
 
