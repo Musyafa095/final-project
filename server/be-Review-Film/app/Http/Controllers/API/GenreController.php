@@ -73,7 +73,7 @@ class GenreController extends Controller
         $genre = genres::find($id);
         $genre -> delete();
        return response()->json([
-        'message ' => 'berhasil Menghapus data Genre'
+        'message' => 'berhasil Menghapus data Genre'
        ]);
        
     }
