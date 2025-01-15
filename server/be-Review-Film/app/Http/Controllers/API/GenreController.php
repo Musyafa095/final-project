@@ -8,10 +8,10 @@ use App\Http\Controllers\Controller;
 
 class GenreController extends Controller
 {
-   public function __construct()
-    {
-        $this->middleware(['auth:api', 'admin'])->except(['index', 'show']);
-    } 
+  // public function __construct()
+  //  {
+ //       $this->middleware(['auth:api', 'admin'])->except(['index', 'show']);
+  //  } 
       public function index()
     {
         $genres = genres::all();
