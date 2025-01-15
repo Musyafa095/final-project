@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://netflix-clone-production-fa7c.up.railway.app'),
+    'url' => env('APP_URL', 'https://paradaya-movie-production-fa7c.up.railway.app'),
 
     'asset_url' => env('ASSET_URL', '/'),
 
